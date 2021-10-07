@@ -536,7 +536,7 @@ blockquote p::after {
   width: 100%;
   height: 100%;
 }
-video::-internal-media-controls-download-button {
+iframe::-internal-media-controls-download-button {
   display:none;
 }
 .portfolio-details .portfolio-details-slider img {
