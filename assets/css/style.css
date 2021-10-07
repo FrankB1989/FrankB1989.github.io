@@ -536,6 +536,13 @@ blockquote p::after {
   width: 100%;
   height: 100%;
 }
+.iframe-container video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 video::-internal-media-controls-download-button {
   display:none;
 }
