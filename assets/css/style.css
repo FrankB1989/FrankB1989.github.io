@@ -562,7 +562,6 @@ video::-webkit-media-controls-panel {
     transition-duration: 500000ms;
     display: inline-block;
     overflow: hidden;
-    loop: false;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
