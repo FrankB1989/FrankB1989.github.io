@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/ImgProfiloSmallest.jpg" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -45,7 +45,7 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/ImgProfilo.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/profile-img1.jpeg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Francesco Balacco</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="https://www.linkedin.com/in/francesco-balacco-734238221" class="linkedin"><i class="bx bxl-linkedin"></i></a>
@@ -54,10 +54,10 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="index.html" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <!-- <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -91,17 +91,44 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide" data-swiper-autoplay="10000000">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
+                  <div class="iframe-container">
+                    <video width="650" height="350" controls controlsList="nodownload">
+                      <source src="assets/img/portfolio/Video/DropWeapon.mp4" type="video/mp4">
+                    </video>
+                  </div>
                 </div>
 
                 <div class="swiper-slide" data-swiper-autoplay="10000000">
-                  <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
+                  <div class="iframe-container">
+                    <video width="650" height="350" controls controlsList="nodownload">
+                      <source src="assets/img/portfolio/Video/FreezeGun.mp4" type="video/mp4">
+                    </video>
+                  </div>
                 </div>
 
                 <div class="swiper-slide" data-swiper-autoplay="10000000">
-                  <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
+                  <div class="iframe-container">
+                    <video width="650" height="350" controls controlsList="nodownload">
+                      <source src="assets/img/portfolio/Video/Teleport.mp4" type="video/mp4">
+                    </video>
+                  </div>
                 </div>
 
+                <div class="swiper-slide" data-swiper-autoplay="10000000">
+                  <div class="iframe-container">
+                    <video width="650" height="350" controls controlsList="nodownload">
+                      <source src="assets/img/portfolio/Video/WallJump.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+
+                <div class="swiper-slide" data-swiper-autoplay="10000000">
+                  <div class="iframe-container">
+                    <video width="650" height="350" controls controlsList="nodownload">
+                      <source src="assets/img/portfolio/Video/WallRun.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                </div>
               </div>
               <div class="swiper-pagination"></div>
             </div>
@@ -111,23 +138,22 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li>Videogame sviluppato in Unity3D</li>
+                <li>Testing new feature in Epic Games Shooter Example</li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>Ninja Adventure</h2>
+              <h2>Shooter Game Example (Made by Epic Games)</h2>
               <p>
-                Videogame sviluppato per testare le mie capacità sul 2D con Unity, classico Platform composto da due stage,
-                nel primo il protagonista deve esplorare il livello e prendere un certo numero di monete per aprire la porta per il secondo stage,
-                nel secondo, alla fine del livello, è presente una boss fight.
-                In questo gioco mi sono occupato sia della parte di gameplay che della creazione dei livelli in particolar modo di:
+                Project implemented to test new features in an existing project. 
+                I used the Shooter Game Example project made by Epic Games as a base and added 5 new features,
+                all of which worked in multiplayer and were made to avoid lag problems.
+                The new features are:
                 <ul>
-                  <li>Combat System</li>
-                  <li>Player Movement</li>
-                  <li>AI</li>
-                  <li>Animations</li>
-                  <li>User Interface</li>
-                  <li>Level Design</li>
+                  <li>Drop Weapon when an enemy dies</li>
+                  <li>New Weapon Freeze Gun</li>
+                  <li>Teleportaion 10 meters forward</li>
+                  <li>Wall Jump</li>
+                  <li>Wall Run</li>
                 </ul>
               </p>
             </div>
